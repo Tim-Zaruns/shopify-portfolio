@@ -21,7 +21,7 @@ export default defineConfig({
   integrations: [
     react(),
     sitemap({
-      filter: (page) => !page.includes("/apps/pricitfyai/privacy"),
+      filter: (page) => !page.includes("/apps/pictifyai/privacy"),
     }),
     mdx({
       optimize: true,
