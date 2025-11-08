@@ -20,7 +20,9 @@ export default defineConfig({
   },
   integrations: [
     react(),
-    sitemap(),
+    sitemap({
+      filter: (page) => !page.includes("/apps/pricitfyai/privacy"),
+    }),
     mdx({
       optimize: true,
       syntaxHighlight: "shiki",

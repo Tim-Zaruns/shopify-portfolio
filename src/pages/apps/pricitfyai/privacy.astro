@@ -1,0 +1,18 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PrivacyPolicy from '@/PRIVACY_POLICY.md';
+
+const seo = {
+  title: 'Pictify AI Privacy Policy',
+  description:
+    'Privacy policy for the Pictify AI Shopify app. Contains data-usage, retention, and contact details for Shopify review.',
+  robots: 'noindex, nofollow',
+  type: 'article',
+};
+---
+
+<BaseLayout seo={seo}>
+  <article class="prose mx-auto px-4 py-12 sm:px-6 lg:px-8">
+    <PrivacyPolicy />
+  </article>
+</BaseLayout>
