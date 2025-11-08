@@ -69,4 +69,4 @@ This policy is effective as of 2025-11-08
 
 If you have any questions or requests related to this Privacy Policy, please contact:
 
-Email: timofey.zaruns@gmail.com
+Email: `timofey.zaruns@gmail.com`
